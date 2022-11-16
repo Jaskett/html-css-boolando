@@ -5,3 +5,18 @@
     box-sizing: border-box;
 }
 
+/* Regole generali */
+.box {
+    width: 1000px;
+    margin: auto;
+}
+
+/* Header */
+#container-head {
+    
+}
+
+/* Colori
+    Arancione: #ff6900
+    Nero: #1a1a1a
+*/
