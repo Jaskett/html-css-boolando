@@ -54,6 +54,14 @@ img {
 /* Fine Header */
 
 /* Inizio Main */
+#container-main {
+    background-color: lightblue;
+}
+
+.box-main {
+    background-color: lightcoral;
+    border: 2px dashed black;
+}
 
 /* Fine Main */
 
