@@ -8,13 +8,57 @@
 /* Regole generali */
 .box {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-/* Header */
-#container-head {
-    
+/* Inizio Header */
+.container-header {
+    background-color: #ff6900;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
+
+.box-header {
+    display: flex;
+    border: 2px dashed black;
+    align-items: center;
+}
+
+.small-column {
+    width: 20%;
+}
+
+.small-column:last-child {
+    text-align: right;
+}
+
+.small-column > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 3px;
+    font-size: 15px;
+}
+
+.big-column {
+    width: 60%;
+    text-align: center;
+}
+
+img {
+    width: 130px;
+}
+/* Fine Header */
+
+/* Inizio Main */
+
+/* Fine Main */
+
+/* Inizio Footer */
+/* Fine Footer */
 
 /* Colori
     Arancione: #ff6900
