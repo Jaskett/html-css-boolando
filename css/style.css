@@ -98,6 +98,39 @@ img {
 .card-photo:hover .second-img {
     display: inline;
 }
+
+.sale {
+    background-color: red;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-weight: bold;
+}
+
+.sustainability {
+    background-color: #008000;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.single-sustainability {
+    background-color: #008000;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-weight: bold; 
+}
 /* Fine Main */
 
 /* Inizio Footer */
@@ -110,4 +143,5 @@ img {
 /* Colori
     Arancione: #ff6900
     Nero: #1a1a1a
+    Verde: #008000
 */
