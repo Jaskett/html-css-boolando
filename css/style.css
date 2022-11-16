@@ -131,6 +131,46 @@ img {
     left: 0px;
     font-weight: bold; 
 }
+
+.heart {
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.card-brand {
+    width: 100%;
+    background-color: lightslategray;
+    min-height: 50px;
+    border: 2px dashed black;
+}
+
+.mark {
+    font-size: 13px;
+}
+
+.product {
+    font-weight: bold;
+}
+
+.price-sale {
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    color: black;
+    text-decoration: line-through;
+    font-weight: normal;
+}
 /* Fine Main */
 
 /* Inizio Footer */
