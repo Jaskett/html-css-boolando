@@ -129,8 +129,9 @@ img {
 
 .heart {
     background-color: white;
+    color: black;
     padding: 5px;
-    font-size: 12px;
+    font-size: 20px;
     position: absolute;
     top: 10px;
     right: 0px;
@@ -207,14 +208,7 @@ img {
     line-height: 20px;
 }
 
-.social > a {
-    margin-left: 10px;
-    text-decoration: none;
+.social > i {
+    margin-left: 5px;
 }
 /* Fine Footer */
-
-/* Colori
-    Arancione: #ff6900
-    Nero: #1a1a1a
-    Verde: #008000
-*/
