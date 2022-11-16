@@ -71,7 +71,7 @@ img {
 
 .card {
     width: calc(100% / 3 - 15px);
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .card-photo {
@@ -82,9 +82,29 @@ img {
     border: 2px dashed black;
 }
 
+.first-img {
+    width: 100%;
+}
+
+.second-img {
+    width: 100%;
+    display: none;
+}
+
+.card-photo:hover .first-img {
+    display: none;
+}
+
+.card-photo:hover .second-img {
+    display: inline;
+}
 /* Fine Main */
 
 /* Inizio Footer */
+#container-footer {
+    background-color: lightseagreen;
+    border: 2px dashed black;
+}
 /* Fine Footer */
 
 /* Colori
