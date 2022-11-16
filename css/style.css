@@ -55,14 +55,11 @@ img {
 
 /* Inizio Main */
 #container-main {
-    background-color: lightblue;
     padding: 50px;
     margin-top: 70px;
 }
 
 .box-main {
-    background-color: lightcoral;
-    border: 2px dashed black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -78,8 +75,6 @@ img {
     width: 100%;
     position: relative;
     min-height: 400px;
-    background-color: lightgreen;
-    border: 2px dashed black;
 }
 
 .first-img {
@@ -147,9 +142,7 @@ img {
 
 .card-brand {
     width: 100%;
-    background-color: lightslategray;
     min-height: 50px;
-    border: 2px dashed black;
 }
 
 .mark {
@@ -176,6 +169,12 @@ img {
 /* Inizio Footer */
 #container-footer {
     background-color: lightseagreen;
+    border: 2px dashed black;
+    padding: 20px;
+}
+
+.box-footer {
+    background-color: lightpink;
     border: 2px dashed black;
 }
 /* Fine Footer */
